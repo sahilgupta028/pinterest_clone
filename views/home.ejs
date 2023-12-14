@@ -1,0 +1,61 @@
+<% include ./partials/header.ejs %>
+<div class="bg-zinc-900 text-white">
+<div class="w-full px-10 py-3 flex justify-between bg-zinc-900 text-white items-center">
+    <div class="flex gap-6 items-center">
+      <img class="rounded-full h-12 w-12" src="data:image/png;base64,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" alt="">
+      <h3 class="font-bold tracking-tighter leading-none">Pinterest</h3>
+    </div>
+    <div class="flex gap-10 items-center">
+        <a href="/about" class="px-3 py-2 bg-red-700 text-white rounded-lg">About</a>
+      <a href="/register" class="px-3 py-2 bg-red-700 text-white rounded-lg">Register</a>
+      <a href="/login" class="px-3 py-2 bg-red-700 text-white rounded-lg">Login</a>
+    </div>
+  </div>
+  <span class="role mt-10 bg-zinc-900 font-bold text-5xl decoration-4 tracking-tighter leading-none flex justify-center align-center text-white"></span>
+  <div class="mt-8 animate-bounce flex items-center align-center justify-center text-4xl"><i class="ri-arrow-down-circle-fill"></i></div>
+  <div class="w-full flex bg-zinc-900 flex-wrap py-20 px-10">
+    <img class="animate-pulse w-1/5 px-1 object-cover  mt-8 h-96" src="https://images.unsplash.com/photo-1702225758160-c37ae5aa65bf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover  mt-16 h-96" src="https://images.unsplash.com/photo-1701771722300-69bdb8c076f3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover mt-24 h-96" src="https://images.unsplash.com/photo-1682687981674-0927add86f2b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover  mt-16 h-96" src="https://plus.unsplash.com/premium_photo-1696863127550-f7731db57204?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover  h-96 mt-8" src="https://images.unsplash.com/photo-1702306870043-daa46071bbc2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover h-96" src="https://images.unsplash.com/photo-1702314876287-54ba90a5f9cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover h-96 mt-8" src="https://images.unsplash.com/photo-1701797346157-9f95c9133019?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover h-96 mt-16" src="https://images.unsplash.com/photo-1701743807204-3a5df11d8a9a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover h-96 mt-4" src="https://images.unsplash.com/photo-1702330160742-c2d920ac3028?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover h-96" src="https://images.unsplash.com/photo-1702223119384-b5967fc0ccc8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOXx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover h-96" src="https://images.unsplash.com/photo-1702103208231-3f5e565c7065?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOXx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover h-96 mt-8" src="https://images.unsplash.com/photo-1702057172301-9733dec4421d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4MXx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover h-96 mt-16" src="https://images.unsplash.com/photo-1699505015531-21f401c75a90?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4Mnx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover h-96 mt-8" src="https://images.unsplash.com/photo-1702011063069-11e96b6fa662?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img class="animate-pulse w-1/5 px-1 object-cover h-96" src="https://plus.unsplash.com/premium_photo-1700566981992-a193442997d5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1Nnx8fGVufDB8fHx8fA%3D%3D" alt="">
+  </div>
+  <div class="bg-red-700 flex text-white items-stretch justify-around font-semibold">
+    <p>Terms of Service</p>
+    <p>Privacy Policy</p>
+    <p>Help</p>
+    <p>iPhone App</p>
+    <p>Android App</p>
+    <p>User</p>
+    <p>Collections</p>
+    <p>Shopping</p>
+    <p>Today</p>
+    <p>Explore</p>
+    <p>Watch</p>
+    <p>Shop</p>
+</div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+        strings: [
+            "Welcome to Pinterest",
+        ],
+        loop: false,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+    })
+</script>
+<% include ./partials/footer.ejs %>
